@@ -1,0 +1,35 @@
+<html>
+<head>
+  <title>Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="pageHeader">Adventures</div>
+  <div class="navContainer">
+    <div class="topNav" id="myTopNav">
+      <a href="index.html">About</a>
+      <a href="adventures.html" class="active">Adventures</a>
+      <a href="rulesets.html">Rulesets</a>
+      <a href="ideas.html">Ideas</a>
+      <a href="javascript:void(0);" style="font-size:28px;" class="icon" onclick="expand()">&#9776;</a>
+    </div>
+  </div>
+  <div class="content">
+    <div class="contentainer contactInfo">
+      <div class="contentTitle">Subcontent Title</div>
+      <div class="subContent">
+    </div>
+  </div>
+  <script>
+    function expand() {
+        var x = document.getElementById("myTopNav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+  </script>
+</body>
+</html>

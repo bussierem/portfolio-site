@@ -1,0 +1,137 @@
+<html>
+<head>
+  <title>Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="pageHeader">About</div>
+  <div class="navContainer">
+    <div class="topNav" id="myTopNav">
+      <a href="index.html" class="active">About</a>
+      <a href="adventures.html">Adventures</a>
+      <a href="rulesets.html">Rulesets</a>
+      <a href="ideas.html">Ideas</a>
+      <a href="javascript:void(0);" style="font-size:28px;" class="icon" onclick="expand()">&#9776;</a>
+    </div>
+  </div>
+  <div class="content">
+    <div class="contentainer contactInfo">
+      <div class="contentTitle">Contact Me</div>
+      <div class="subContent">
+        <table class="contact">
+          <tr>
+            <th>Email:</th>
+            <td>max<p class="smtxt"> (dot) </p>bussiere<p class="smtxt"> (at) </p>gmail<p class="smtxt"> (dot) </p>com</td>
+          </tr>
+          <tr>
+            <th>Phone:</th>
+            <td>612 839 2348</td>
+          </tr>
+          <tr>
+            <th>Twitter:</th>
+            <td><a href="https://twitter.com/tresdigitus">@TresDigitus</a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="contentainer resume">
+      <div class="contentTitle">Résumé</div>
+      <div class="subContent">
+        <table class="resume" cellspacing="0" cellpadding="10px">
+          <tr>
+            <th>RPGs</th>
+            <td>
+              I was introduced to Tabletop RPGs right before college in 2007 by some friends.
+              They introduced me to Pathfinder, and I have been playing various RPGs consistently
+              since then, with a wide variety of systems:<br />
+              <strong>Medieval:</strong> D&D (3e, 3.5e, 4e, 5e), Pathfinder, Shadows of the Demon
+              Lord, 13th Age, Iron Heroes<br />
+              <strong>Cyberpunk:</strong> Shadowrun (4e, 5e), Cyberpunk v3<br />
+              <strong>Warhammer 40k:</strong> Rogue Trader, Dark Heresy 2e, Only War, Freebootaz<br />
+              <strong>World of Darkness:</strong> Hunter: The Vigil, Mage: The Awakening<br />
+              <strong>Rules Light/One-shots:</strong> Everyone is John, Lasers and Feelings, All
+              Outta Bubblegum, FATE, Dungeon World, Mythender<br />
+              <strong>Misc:</strong> Monsters and Other Childish Things, Numenera, Feng Shui 2e,
+              Savage Worlds (Deadlands)
+            </td>
+          </tr>
+          <tr>
+            <th>Board Games</th>
+            <td>
+              I have played dozens of board games (I won't list these out) of all kinds,
+              from the highly popular ones such as Ticket To Ride and Settlers of Catan, to
+              more obscure ones like Epic Resort and Hirelings.  Playing all of these
+              games has given me experience examining the systems of a game and finding
+              problems, breaking points, and well-designed rules.
+            </td>
+          </tr>
+          <tr>
+            <th>Dungeon Master</th>
+            <td>
+              I have been DMing Tabletop RPGs since 2008 - Right after learning to play,
+              I immediately went to college and found a group, where I began my DM career.
+              Since then I have DMed probably 90% of the systems I have played (listed
+              above), and been able to DM in many different situations:  Online games,
+              in-person games, games with adults, games with kids (I taught five 12y/o kids
+              how to play Dungeon World, and it was a blast).<br />
+              Out of all the games I have DMed, I would say maybe 40% have gone to a point
+              I would call "campaign end", due to various reasons (the nebulous nature of
+              online games being a primary factor).<br />
+              Additionally, every game I have DMed for has had at least one person that
+              was completely new to RPGs, and I have had the pleasure of teaching each one
+              how to play, which has been a valuable experience itself.
+              Finally, I have also created a number of custom worlds.  My style of DMing
+              leans more towards "minimal prep improvisation", which allows me to make
+              very fun adventures for my party on the fly, crafting enemies, quests, NPCs,
+              and rewards whenever needed.
+            </td>
+          </tr>
+          <tr>
+            <th>RPG Design</th>
+            <td>
+              During all my time playing different RPG systems, it has given me many chances
+              to compare, contrast, and analyze the rulesets of these systems.  Doing so
+              piqued my interest into making my own, and I have had numerous chances at
+              varying levels of success (see <a href="rulesets.html">Rulesets</a> for an
+              example of this).<br />
+              Additionally, I have had a chance to deconstruct and try to "break" systems,
+              with the help of my friend Tyler, allowing us to find the breakpoints in rules
+              and even implement our own homebrew rules that "fix" things we find to be lacking.
+            </td>
+          </tr>
+          <tr>
+            <th>Software Development</th>
+            <td>
+              My full-time career is as a software developer and tester.  I believe
+              that this primary passion for programming has given me an analytical view,
+              allowing me to deconstruct systems and truly enjoy learning and applying
+              these rules.<br />
+              Also, this career has given me the ability to make several tools and apps
+              to be used in my RPGs - dice rollers, map generation, character creators, etc.
+            </td>
+          </tr>
+          <tr>
+            <th>Grammar</th>
+            <td>
+              An odd thing to have on a résumé, but here we are.  I pride myself on my
+              spelling, grammar, and editing abilities - I have always been excellent at
+              this, and I carry it over to whatever I work on.
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <script>
+    function expand() {
+        var x = document.getElementById("myTopNav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+  </script>
+</body>
+</html>
